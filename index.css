@@ -1,0 +1,39 @@
+#show_videos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+    width: 95%;
+    margin: auto;
+}
+
+#search{
+    display: flex;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darkgrey;
+    margin-left: 20%;
+}
+#query{
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border: 0.5px solid darkgrey;
+    color: darkgrey;;
+}
+button{
+    width: 10%;
+    border: none;
+    background-color: white;
+}
+iframe{
+   border: none;
+}
+#show_videos>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+}
+
+
